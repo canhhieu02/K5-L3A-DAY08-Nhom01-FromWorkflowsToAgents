@@ -12,7 +12,7 @@
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Nguyễn Cảnh Hiếu | 2A202603667 | hieucoi098765@gmail.com | canhhieu02 | Workflow, Integration & Durability |
-|   2 | Bùi Lê Công Tuấn | 2A202603610 | tuan.blc@vinuni.edu.vn | builecongtuan | Single Agent, Orchestrator & Benchmark/ADR |
+|   2 | Bùi Lê Công Tuấn | 2A20263610 | blct15102004@gmail.com | blct15102004 | Single Agent, Orchestrator & Benchmark/ADR |
 
 Gợi ý chia vai:
 
@@ -54,7 +54,7 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 - Commit ban đầu, test cổng host và crash test `20/20`.
 
-## 2A202603610_BuiLeCongTuan
+## 2A20263610_BuiLeCongTuan
 
 ### Phần việc phụ trách
 

@@ -4,13 +4,13 @@ Tối đa 5 trang ngoài phụ lục. Số liệu lấy từ file trong `src/rep
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm: Hieu
+- Tên nhóm: Nhom01
 - Lớp: L3A
-- Repo nhóm: `K5-L3A-DAY08-Hieu-FromWorkflowsToAgents`
+- Repo nhóm: `K5-L3A-DAY08-Nhom01-FromWorkflowsToAgents`
 - Thành viên:
   - Nguyễn Cảnh Hiếu — MSSV: 2A202603667 (Workflow, Integration & Durability)
-  - Bùi Lê Công Tuấn — MSSV: 2A202603610 (Single Agent, Orchestrator & Benchmark/ADR)
-- Commit chốt: `627b34f` (khớp với `report/team/decision_adr.md`)
+  - Bùi Lê Công Tuấn — MSSV: 2A20263610 (Single Agent, Orchestrator & Benchmark/ADR)
+- Commit chốt: `1af7fb2` (khớp với `report/team/decision_adr.md`)
 
 ## 2. Mục tiêu và cách tiếp cận
 

@@ -1,11 +1,11 @@
-# Báo cáo cá nhân — 2A202603610_BuiLeCongTuan
+# Báo cáo cá nhân — 2A20263610_BuiLeCongTuan
 
 ## 1. Thông tin thành viên
 
 - Họ tên: Bùi Lê Công Tuấn
-- MSSV: 2A202603610
-- Email: tuan.blc@vinuni.edu.vn
-- GitHub: builecongtuan
+- MSSV: 2A20263610
+- Email: blct15102004@gmail.com
+- GitHub: blct15102004
 
 ## 2. Phần việc phụ trách
 
@@ -22,7 +22,7 @@
 
 ## 4. Bằng chứng
 
-- Commit chính: `1af7fb2` (triển khai shapes, tests và báo cáo) và commit báo cáo cá nhân.
+- Commit chính: `1af7fb2` (triển khai shapes, tests và báo cáo) và các commit hoàn thiện tài liệu cá nhân.
 - Tên test đã thêm: `tests/test_orchestrator_custom.py::test_orchestrator_handoff_no_secret_leak_custom`, `tests/test_orchestrator_custom.py::test_orchestrator_order_cap_difference_custom`.
 - Run ID dẫn chứng: `R-orchestrator-C-001-s11`.
 - File bằng chứng: `src/reports/benchmark.json` chứa kết quả so sánh đầy đủ 4 shapes.
