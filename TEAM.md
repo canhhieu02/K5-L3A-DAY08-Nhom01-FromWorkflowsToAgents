@@ -2,17 +2,17 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Nhom01
 - Lớp: L3A
-- Repo nhóm: `K5-L3A-DAY08-TenNhom-FromWorkflowsToAgents` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt:
+- Repo nhóm: `K5-L3A-DAY08-Nhom01-FromWorkflowsToAgents` (xem [SUBMISSION.md](SUBMISSION.md))
+- URL repo, nhánh nộp, commit chốt: `https://github.com/canhhieu02/K5-L3A-DAY08-Nhom01-FromWorkflowsToAgents.git`, nhánh `main`
 
 ## Thành viên
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |        |      |       |        |         |
-|   2 |        |      |       |        |         |
+|   1 | Nguyễn Cảnh Hiếu | 2A202603667 | hieucoi098765@gmail.com | canhhieu02 | Workflow, Integration & Durability |
+|   2 | Bùi Lê Công Tuấn | 2A202603610 | tuan.blc@vinuni.edu.vn | builecongtuan | Single Agent, Orchestrator & Benchmark/ADR |
 
 Gợi ý chia vai:
 
@@ -25,7 +25,8 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| | | | |
+| Nguyễn Cảnh Hiếu | Workflow, Durability & Integration | | tests/test_workflow_custom.py |
+| Bùi Lê Công Tuấn | Single Agent, Orchestrator & Benchmark | | tests/test_orchestrator_custom.py |
 
 ## Cá nhân
 
@@ -37,18 +38,34 @@ report/team/MSSV_HoTen.md
 
 Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
-Sao chép mục dưới đây cho từng thành viên.
-
-## MSSV_HoTen
+## 2A202603667_NguyenCanhHieu
 
 ### Phần việc phụ trách
 
--
+- Shape A (Workflow), Durability & Idempotency, Crash Safety suite, Tích hợp hệ thống.
 
 ### Đóng góp cụ thể
 
--
+- Thiết lập môi trường, xác thực smoke test và cổng host.
+- Cài đặt Shape A (`workflow.py`).
+- Xử lý tham số `crash_at`, kiểm tra cơ chế chống double refund.
 
 ### Bằng chứng
 
--
+- Commit ban đầu, test cổng host và crash test `20/20`.
+
+## 2A202603610_BuiLeCongTuan
+
+### Phần việc phụ trách
+
+- Shape B (Single Agent), Shape C (Orchestrator), Handoff sanitizer, Benchmark & ADR.
+
+### Đóng góp cụ thể
+
+- Cài đặt Shape B (`single.py`) với vòng ReAct tối đa 8 bước.
+- Cài đặt Shape C (`orchestrator.py`) với handoff allowlist.
+- Chạy benchmark 4 shapes và viết báo cáo quyết định kiến trúc.
+
+### Bằng chứng
+
+- Commit cài đặt shape B và C, file `reports/benchmark.json`.

@@ -20,3 +20,6 @@ src/reports/bonus_hidden.json
 
 # Instructor-only hidden pack. Never push it to this repo.
 src/eval/instructor/
+
+# Local personal instructions
+HUONG_DAN_CHI_TIET_LAB8.md
