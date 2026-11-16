@@ -1,4 +1,5 @@
 """Shape C — orchestrator plus read-only investigators. Student work.
+Implemented by: Bui Le Cong Tuan (MSSV: 2A20263610).
 
 Signature (do not change):
 
