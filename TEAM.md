@@ -26,7 +26,7 @@ Gợi ý chia vai:
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
 | Nguyễn Cảnh Hiếu | Workflow, Durability & Integration | 1af7fb2 | tests/test_workflow_custom.py |
-| Bùi Lê Công Tuấn | Single Agent, Orchestrator & Benchmark | 1af7fb2 | tests/test_orchestrator_custom.py |
+| Bùi Lê Công Tuấn | Single Agent, Orchestrator & Benchmark | 591dd93 | tests/test_orchestrator_custom.py |
 
 ## Cá nhân
 
